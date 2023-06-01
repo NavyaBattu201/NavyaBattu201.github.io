@@ -224,3 +224,11 @@ font-size: 25px;
     from {transform: rotate(0deg);}
     to {transform: rotate(180deg);}
 }
+/* bookmarks */
+.bookmarklinks{
+    text-align: center;
+    color: #000;
+  }
+  .bookmarktable{
+    list-style-type: none;
+  }
