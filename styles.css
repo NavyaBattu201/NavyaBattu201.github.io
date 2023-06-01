@@ -83,3 +83,21 @@
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
   }
+  /* notes */
+.flexboxitem2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    position: relative;
+ }
+ section.notes-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border: #000;
+ }
+ .boxes{
+   background-color: rgb(223, 245, 246);
+   border: rgb(0, 0, 0);
+ }
