@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
     }
+    .overall{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
     /* header */
     h1.mytitle{
       font-size: 500%;
@@ -17,7 +22,8 @@
         border: 1px solid black;
         background-color: black;
         color: rgba(97,216,222,255);    
-        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;  
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+        overflow: scroll;
     }
     .flexnavigationcontainer{
       display: flex;
