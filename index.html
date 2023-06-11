@@ -7,7 +7,6 @@
     <title>e-cell application</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
-    <script> src="logic/timeweather.js"</script>
 <style>
     body{
     background-image:url("5.avif");
@@ -214,18 +213,11 @@
         <br>
         <h2 id ="todolist" style="margin:5px">My To Do List</h2>
         <br>
-        <input type="text" id="myInput" placeholder="Title...">
-        <span onclick="newElement()" class="addBtn">Add</span>
+        <input type="text" id="taskinput" placeholder="Enter your tasks">
+        <button onclick="newElement()">Add Task</button>
       </div>
-      <h3>  
-      <ol id="myol">
-        <li>1.Modify Issues rised in team-up student portal</li>
-        <li >2.Add a Blog to blog page e-cell</li>
-        <li>3.Meeting with team about revamping the e-cell website</li>
-        <li>4.Going through google forms for AMs</li>
-        <li>5.creating pull request on CRM project </li>
-      </ol>
-    </h3>
+      <ul id="tasklist"></ul>
+          <script src="todologic.js"></script>
 </div>
     </section>
 </main>
